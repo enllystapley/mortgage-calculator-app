@@ -24,7 +24,7 @@ function setupIntialValues() {
   let amount = document.getElementById("loan-amount").value;
   let years = document.getElementById("loan-years").value;
   let rate = document.getElementById("loan-rate").value;
-
+// here is a small comment change
   calculateMonthlyPayment({amount: 0, years: 0, rate: 0});
 }
 
